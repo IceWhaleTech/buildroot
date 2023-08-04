@@ -311,7 +311,7 @@ F:	package/taskd/
 N:	Benjamin Kamath <kamath.ben@gmail.com>
 F:	package/lapack/
 
-N:	Bernd Kuhls <bernd.kuhls@t-online.de>
+N:	Bernd Kuhls <bernd@kuhls.net>
 F:	package/alsa-lib/
 F:	package/alsa-utils/
 F:	package/apache/
@@ -471,7 +471,6 @@ F:	package/vdr-plugin-vnsiserver/
 F:	package/vlc/
 F:	package/vnstat/
 F:	package/waylandpp/
-F:	package/x11r7/
 F:	package/x264/
 F:	package/x265/
 F:	package/xmrig/
@@ -538,7 +537,7 @@ F:	package/syslog-ng/
 N:	Christian Kellermann <christian.kellermann@solectrix.de>
 F:	package/python-pylibftdi/
 
-N:	Christian Stewart <christian@paral.in>
+N:	Christian Stewart <christian@aperture.us>
 F:	package/balena-engine/
 F:	package/batman-adv/
 F:	package/catatonit/
@@ -662,7 +661,7 @@ N:	Damien Lanson <damien@kal-host.com>
 F:	package/libvdpau/
 F:	package/log4cpp/
 
-N:	Damien Le Moal <damien.lemoal@wdc.com>
+N:	Damien Le Moal <dlemoal@kernel.org>
 F:	package/python-kflash/
 F:	board/canaan/
 F:	configs/canaan_kd233_defconfig
@@ -860,7 +859,7 @@ F:	package/szip/
 N:	Esben Haabendal <esben@haabendal.dk>
 F:	package/python-kiwisolver/
 
-N:	Etienne Carriere <etienne.carriere@linaro.org>
+N:	Etienne Carriere <etienne.carriere@foss.st.com>
 F:	boot/optee-os/
 F:	package/optee-benchmark/
 F:	package/optee-client/
@@ -1613,19 +1612,6 @@ N:	José Luis Salvador Rufo <salvador.joseluis@gmail.com>
 F:	package/zfs/
 F:	support/testing/tests/package/test_zfs.py
 
-N:	José Pekkarinen <jose.pekkarinen@unikie.com>
-F:	package/alfred/
-F:	package/avocado/
-F:	package/bmx7/
-F:	package/opensc/
-F:	package/python-aexpect/
-F:	package/python-alembic/
-F:	package/python-lark/
-F:	package/softhsm2/
-F:	support/testing/tests/package/sample_python_aexpect.py
-F:	support/testing/tests/package/test_avocado.py
-F:	support/testing/tests/package/test_python_aexpect.py
-
 N:	Joseph Kogut <joseph.kogut@gmail.com>
 F:	package/at-spi2-atk/
 F:	package/at-spi2-core/
@@ -1707,6 +1693,7 @@ F:	package/kexec/
 F:	package/libjxl/
 F:	package/octave/
 F:	package/ola/
+F:	package/openblas/
 F:	package/openmpi/
 F:	package/perftest/
 F:	package/ptm2human/
