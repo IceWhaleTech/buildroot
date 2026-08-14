@@ -64,6 +64,17 @@ SYSTEMD_SELINUX_MODULES = systemd udev xdg
 
 SYSTEMD_PROVIDES = udev
 
+# A previous target-finalize may have installed a custom init from the rootfs
+# overlay. Meson refuses to replace a regular file when reinstalling systemd.
+# Remove it here; the overlay restores the custom init during target-finalize.
+define SYSTEMD_REMOVE_STALE_INIT
+	if [ -e $(TARGET_DIR)/usr/sbin/init ] && \
+		[ ! -L $(TARGET_DIR)/usr/sbin/init ]; then \
+		rm -f $(TARGET_DIR)/usr/sbin/init; \
+	fi
+endef
+SYSTEMD_PRE_INSTALL_TARGET_HOOKS += SYSTEMD_REMOVE_STALE_INIT
+
 SYSTEMD_CONF_OPTS += \
 	-Dcreate-log-dirs=false \
 	-Ddbus=disabled \
