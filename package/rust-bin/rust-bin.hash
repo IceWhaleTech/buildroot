@@ -1,6 +1,11 @@
 # Generated with utils/update-rust
 # Do not edit manually
 
+# From https://static.rust-lang.org/dist/rust-1.97.0-x86_64-unknown-linux-gnu.tar.xz.sha256
+sha256  1cf17e4905b841d4c8e3f76467ac148d55fb3f54bf213c86f0d287a36471d904  rust-1.97.0-x86_64-unknown-linux-gnu.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.97.0-x86_64-unknown-linux-gnu.tar.xz.sha256
+sha256  0c43618128a7a6b96b0b04c04cf7b28dd52fb0991a74c9615fbd1a684ff88712  rust-std-1.97.0-x86_64-unknown-linux-gnu.tar.xz
+
 # From https://static.rust-lang.org/dist/rust-1.88.0-aarch64-unknown-linux-gnu.tar.xz.sha256
 sha256  d5decc46123eb888f809f2ee3b118d13586a37ffad38afaefe56aa7139481d34  rust-1.88.0-aarch64-unknown-linux-gnu.tar.xz
 # From https://static.rust-lang.org/dist/rust-1.88.0-i686-unknown-linux-gnu.tar.xz.sha256
